@@ -63,4 +63,20 @@ body{
     font-size: 1.6rem;
     color: #3c4955;
     min-height: 100%;
+    max-width: 70%; 
+    margin: 0 auto;
+    // display: inline-block;
+}
+.text{
+  display: inline-block;
+}
+
+.redbutton{
+  background-color: #f67b7b;
+  border-radius: 50%;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
