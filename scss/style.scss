@@ -63,20 +63,29 @@ body{
     font-size: 1.6rem;
     color: #3c4955;
     min-height: 100%;
-    max-width: 70%; 
-    margin: 0 auto;
+    max-width: 100%; 
     // display: inline-block;
-}
+} 
 .text{
   display: inline-block;
+  max-width: 360px;
 }
 
-.redbutton{
-  background-color: #f67b7b;
-  border-radius: 50%;
+.container{
+  margin: 0 auto;
+  max-width: 600px;
 }
-.flex {
+
+.mainflex{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
 }
+
+.div {
+  padding: 25px;
+}
+
